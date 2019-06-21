@@ -1,0 +1,139 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "create a new contact",
+        "description": "",
+        "id": "create-contacts;create-a-new-contact;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16818904200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be present on login page",
+            "match": {
+              "location": "LoginstepDefinition.userLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 118879800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Freecrm",
+            "match": {
+              "location": "LoginstepDefinition.titlecheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5959505000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the \"ajaykhurgaonkar@gmail.com\" and \"@Chennaimedukhi1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ajaykhurgaonkar@gmail.com",
+                  "offset": 17
+                },
+                {
+                  "val": "@Chennaimedukhi1",
+                  "offset": 49
+                }
+              ],
+              "location": "LoginstepDefinition.enteruserpassword(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1385540700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the home page",
+            "match": {
+              "location": "LoginstepDefinition.homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 761552700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user moves to new contacts",
+            "match": {
+              "location": "LoginstepDefinition.movetoContacts()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1067300000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enters \"Ajay\" and \"k\" and \"Owner\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Ajay",
+                  "offset": 13
+                },
+                {
+                  "val": "k",
+                  "offset": 24
+                },
+                {
+                  "val": "Owner",
+                  "offset": 32
+                }
+              ],
+              "location": "LoginstepDefinition.details(String,String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3,
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2133662300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "close the browser",
+            "match": {
+              "location": "LoginstepDefinition.close()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create contacts",
+    "description": "",
+    "id": "create-contacts",
+    "keyword": "Feature",
+    "uri": "C:/Users/91917/eclipse-workspace/Cucumber/src/main/java/Features/contacts.feature"
+  }
+]
