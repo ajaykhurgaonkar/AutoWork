@@ -15,4 +15,3 @@ Scenario Outline: create a new contact
 	
 		|username|password|firstname|lastname|position|
 		|ajaykhurgaonkar@gmail.com|@Chennaimedukhi1|Ajay|k|Owner|
-		|ajaykhurgaonkar@gmail.com|@Chennaimedukhi1|Sachin|T|Analyst|

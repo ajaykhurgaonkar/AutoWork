@@ -40,7 +40,7 @@ public class LoginstepDefinition {
 
 	@Then("^user enters the \"(.*)\" and \"(.*)\"$")
 	public void enteruserpassword(String username, String password) {
-		driver.findElement(By.xpath("/html/body/div[1]/header/div/nav/div[2]/div/div[3]/ul/a")).click();
+		driver.findElement(By.xpath("/html/body/div[1]/header/div/nav/div[2]/div/div[2]/ul/a")).click();
 
 		wait = new WebDriverWait(driver, 10);
 
