@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Diligence Login page",
+        "description": "",
+        "id": "login-page;diligence-login-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6534700400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user should be present on login page",
+            "match": {
+              "location": "LoginstepDefinition.userLogin()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 120889400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "title of login page is Freecrm",
+            "match": {
+              "location": "LoginstepDefinition.titlecheck()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5432328700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the username and password",
+            "match": {
+              "location": "LoginstepDefinition.enteruserpassword()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153481900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters the home page",
+            "match": {
+              "location": "LoginstepDefinition.homepage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "login page",
+    "description": "",
+    "id": "login-page",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  }
+]

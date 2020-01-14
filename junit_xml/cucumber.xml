@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.01393">
+    <testcase classname="Create contacts" name="create a new contact" time="17.557626">
+        <system-out>
+            <![CDATA[Given user should be present on login page..................................passed
+When title of login page is Freecrm.........................................passed
+Then user enters the "ajaykhurgaonkar@gmail.com" and "@Chennaimedukhi1".....passed
+Then user enters the home page..............................................passed
+Then user moves to new contacts.............................................passed
+Then user enters "Ajay" and "k" and "Owner".................................passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Create contacts" name="create a new contact 2" time="16.456304">
+        <system-out>
+            <![CDATA[Given user should be present on login page..................................passed
+When title of login page is Freecrm.........................................passed
+Then user enters the "ajaykhurgaonkar@gmail.com" and "@Chennaimedukhi1".....passed
+Then user enters the home page..............................................passed
+Then user moves to new contacts.............................................passed
+Then user enters "Sachin" and "T" and "Analyst".............................passed
+Then close the browser......................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
